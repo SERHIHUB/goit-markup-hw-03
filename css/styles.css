@@ -24,6 +24,11 @@ ul {
   padding-left: 0;
 }
 
+img {
+  display: block;
+  object-fit: cover;
+}
+
 .cap {
   background-color: #fff;
   border-bottom: 1px solid #e7e9fc;
@@ -174,11 +179,6 @@ ul {
 .team {
   background-color: #f4f4fd;
 }
-
-/* img {
-  display: block;
-  object-fit: cover;
-} */
 
 .team__list {
   display: flex;
